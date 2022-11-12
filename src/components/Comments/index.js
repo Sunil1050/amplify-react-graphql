@@ -86,14 +86,14 @@ class Comments extends Component {
         <div className="container">
           <div className="row">
             <div className="col-md-6">
-              <h1 className="heading col-12">Comments</h1>
+              <h1 className="heading col-12">Comments Application</h1>
               <img
-                src="https://assets.ccbp.in/frontend/react-js/comments-app/comments-img.png"
+                src="https://res.cloudinary.com/dnzs8wzps/image/upload/v1668280092/plugin-aws_ov6nag.jpg"
                 alt="comments"
                 className="col-12 d-md-none d-inline"
               />
               <div className="w-90">
-                <p className="para">Say something about 4.0 Technologies</p>
+                <p className="para">Say something about Amazon Web Services</p>
                 <form onSubmit={this.addComment}>
                   <input
                     type="text"
@@ -117,7 +117,7 @@ class Comments extends Component {
               </div>
             </div>
             <img
-              src="https://assets.ccbp.in/frontend/react-js/comments-app/comments-img.png"
+              src="https://res.cloudinary.com/dnzs8wzps/image/upload/v1668280092/plugin-aws_ov6nag.jpg"
               className="col-md-6 d-none d-md-inline"
               alt="comments"
             />
