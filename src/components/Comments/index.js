@@ -108,6 +108,7 @@ class Comments extends Component {
                     className="form-control"
                     onChange={this.onChangeComment}
                     value={commentInput}
+                    placeholder="Your Comment"
                   />
                   <button type="submit" className="button">
                     Add Comment

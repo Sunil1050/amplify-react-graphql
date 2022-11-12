@@ -1,6 +1,6 @@
 import Comments from './components/Comments'
 
-import './App.css'
+// import './App.css'
 
 const App = () => <Comments />
 
