@@ -1,7 +1,11 @@
 import Comments from './components/Comments'
+import {
+  withAuthenticator,
+} from "@aws-amplify/ui-react";
+
 const App = () => <Comments />
 
-export default App
+export default withAuthenticator(App)
 
 
 // import logo from "./logo.svg";
